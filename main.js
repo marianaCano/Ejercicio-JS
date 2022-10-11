@@ -2,17 +2,12 @@ var btn_piedra = document.getElementById("Piedra");
 var btn_papel = document.getElementById("Papel");
 var btn_tijeras = document.getElementById("Tijeras");
 var btn_iniciar = document.getElementById("Iniciar_juego");
-var img_usuario = document.getElementById("user");
-var img_cpu = document.getElementById("cpu");
 var marcador_usuario = document.getElementById("puntos_usuario").innerText;
 var marcador_cpu = document.getElementById("puntos_cpu").innerText;
 
 var Menu = "espera";
 var Opcion_jugador;
 var Opcion_cpu;
-
-
-
 
 init_imagenes();
 btn_iniciar.onclick = function() {
